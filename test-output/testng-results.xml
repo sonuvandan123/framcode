@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="35260" started-at="2020-10-19T19:16:01 IST" finished-at="2020-10-19T19:16:37 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="24735" started-at="2020-10-19T19:16:01 IST" finished-at="2020-10-19T19:16:26 IST">
+      <class name="regression.TVTestCases">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:regression.TVTestCases@23a5fd2]" name="initDriver" is-config="true" duration-ms="11094" started-at="2020-10-19T19:16:01 IST" finished-at="2020-10-19T19:16:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="amazonLogin()[pri:0, instance:regression.TVTestCases@23a5fd2]" name="amazonLogin" duration-ms="7647" started-at="2020-10-19T19:16:13 IST" finished-at="2020-10-19T19:16:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonLogin -->
+        <test-method status="FAIL" signature="flipKart()[pri:0, instance:regression.TVTestCases@23a5fd2]" name="flipKart" duration-ms="4145" started-at="2020-10-19T19:16:20 IST" finished-at="2020-10-19T19:16:24 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [abc] but found [Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [abc] but found [Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at regression.TVTestCases.flipKart(TVTestCases.java:48)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:483)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.TestRunner$$Lambda$53/558569884.accept(Unknown Source)
+at java.util.ArrayList.forEach(ArrayList.java:1234)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipKart -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:regression.TVTestCases@23a5fd2]" name="closeDriver" is-config="true" duration-ms="869" started-at="2020-10-19T19:16:25 IST" finished-at="2020-10-19T19:16:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- regression.TVTestCases -->
+    </test> <!-- Test -->
+    <test name="test2" duration-ms="9667" started-at="2020-10-19T19:16:27 IST" finished-at="2020-10-19T19:16:37 IST">
+      <class name="regression.TVTestCases">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:regression.TVTestCases@23a5fd2]" name="closeDriver" is-config="true" duration-ms="1" started-at="2020-10-19T19:16:37 IST" finished-at="2020-10-19T19:16:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- regression.TVTestCases -->
+      <class name="regression.MobileTestCases">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:regression.MobileTestCases@3b2c72c2]" name="initDriver" is-config="true" duration-ms="3952" started-at="2020-10-19T19:16:27 IST" finished-at="2020-10-19T19:16:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="googleM()[pri:0, instance:regression.MobileTestCases@3b2c72c2]" name="googleM" duration-ms="1291" started-at="2020-10-19T19:16:31 IST" finished-at="2020-10-19T19:16:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleM -->
+        <test-method status="FAIL" signature="testCaseOne()[pri:0, instance:regression.MobileTestCases@3b2c72c2]" name="testCaseOne" duration-ms="4043" started-at="2020-10-19T19:16:32 IST" finished-at="2020-10-19T19:16:36 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [bcd] but found [Home page]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [bcd] but found [Home page]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at regression.MobileTestCases.testCaseOne(MobileTestCases.java:38)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:483)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.TestRunner$$Lambda$53/558569884.accept(Unknown Source)
+at java.util.ArrayList.forEach(ArrayList.java:1234)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseOne -->
+      </class> <!-- regression.MobileTestCases -->
+    </test> <!-- test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
